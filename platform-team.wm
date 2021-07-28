@@ -1,0 +1,38 @@
+title Platform Team
+
+anchor Users (Devs) [0.99, 0.37]
+component Deploy Software [0.90, 0.29] label [7, -10]
+component Application Monitoring [0.72, 0.17] label [-48, 8]
+evolve Application Monitoring 0.49 label [18, -20]
+component Application Logs [0.83, 0.10] label [-34, 10]
+component VMs [0.41, 0.35] label [-39, 19]
+component CICD Pipeline [0.77, 0.32] label [13, 1]
+component SCM [0.92, 0.49] label [-6, -12]
+component New Infrastructure [0.22, 0.13] label [-26, 12]
+component Security Controls [0.78, 0.25] label [-32, 11]
+component Cluster [0.56, 0.32] label [-57, -5]
+evolve Cluster 0.76
+component Nutanix Hardware [0.23, 0.32] label [5, -10]
+component AWS Infrastructure [0.14, 0.49] label [-31, 24]
+component Maintain Software [0.91, 0.21] label [-41, -38]
+component Hardware Monitoring [0.42, 0.12] label [-57, -45]
+
+Users (Devs)->Dockerize
+Users (Devs)->Deploy Software
+Users (Devs)->SCM
+Users (Devs) -> Maintain Software
+Deploy Software->Security Controls
+Maintain Software->Security Controls
+CICD Pipeline->Deploy Software
+Maintain Software->Application Monitoring
+Maintain Software->Application Logs
+Cluster -> VMs
+CICD Pipeline -> Cluster
+Hardware Monitoring -> Cluster
+VMs -> Nutanix Hardware
+VMs -> AWS Infrastructure
+New Infrastructure -> Cluster
+New Infrastructure -> AWS Infrastructure
+
+
+style wardley

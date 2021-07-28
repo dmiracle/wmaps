@@ -1,0 +1,19 @@
+title Platform Team
+
+anchor Human [0.99, 0.37]
+component Actualization [0.90, 0.37] label [-70, -23]
+component Accomlishment [0.77, 0.37] label [-118, 2]
+component Relationships [0.53, 0.33] label [-45, -11]
+component Friendships [0.55, 0.48] label [-27, -20]
+component Safety [0.41, 0.50] label [30, 11]
+component Security [0.38, 0.42] label [-6, -12]
+component Food [0.26, 0.53] label [-56, -4]
+component Water [0.24, 0.62] label [-32, 13]
+component Clothing [0.28, 0.67] label [-77, -2]
+component Shelter [0.24, 0.67] label [6, 1]
+
+
+
+y-axis Label->Min->Max
+evolution Novel->Emerging->Good->Best
+style wardley

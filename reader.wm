@@ -1,0 +1,13 @@
+title Platform Team
+
+anchor Reader [0.99, 0.37]
+
+component Interesting Plot [0.91, 0.42] label [-70, -23]
+component Sympathetic Characters [0.84, 0.58] label [-48, 8]
+component World [0.75, 0.61] label [-35, 9]
+component Plain Language [0.90, 0.20] label [-41, -38]
+
+
+
+
+style wardley
